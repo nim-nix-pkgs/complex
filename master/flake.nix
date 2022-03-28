@@ -11,8 +11,8 @@
   inputs.src-complex-master.ref   = "refs/heads/master";
   inputs.src-complex-master.owner = "nim-lang";
   inputs.src-complex-master.repo  = "graveyard";
-  inputs.src-complex-master.dir   = "complex";
-  inputs.src-complex-master.type  = "github";
+    inputs.src-complex-master.dir   = "complex";
+inputs.src-complex-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
